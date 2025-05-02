@@ -97,18 +97,63 @@ body {
   
   .todo {
     border-top: 8px solid #7c3aed;
+    background-color: #7d8faa;
+
   }
   
   .inprogress {
     border-top: 8px solid #3b82f6; 
+    background-color: #7d8faa;
   }
   
   .done {
     border-top: 8px solid #22c55e; 
+    background-color: #7d8faa;
+
   }
   
   .column.drag-over {
     background: #f0f9ff;
     box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
   }
+  .logout-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  .logout-button {
+    padding: 8px 16px;
+    background-color: #5eb1bc;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #433394;
+  }
+  .task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-button {
+    background: transparent;
+    border: none;
+    color: #e998ee;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .delete-button:hover {
+    color: #9841e4;
+  }
+  
   
